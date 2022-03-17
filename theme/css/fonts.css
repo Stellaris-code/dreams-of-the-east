@@ -1,12 +1,29 @@
+/* lusitana-regular - latin */
 @font-face {
-	font-family: 'Yanone Kaffeesatz';
-	font-style: normal;
-	font-weight: 400;
-	src:
-		local('Yanone Kaffeesatz Regular'),
-		local('YanoneKaffeesatz-Regular'),
-		/* from https://fonts.gstatic.com/s/yanonekaffeesatz/v8/YDAoLskQQ5MOAgvHUQCcLRTHiN2BPBirwIkMLKUspj4.woff */
-		url('../fonts/Yanone_Kaffeesatz_400.woff') format('woff'),
-		/* from https://fonts.gstatic.com/s/yanonekaffeesatz/v8/YDAoLskQQ5MOAgvHUQCcLfGwxTS8d1Q9KiDNCMKLFUM.woff2 */
-		url('../fonts/Yanone_Kaffeesatz_400.woff2') format('woff2');
+  font-family: 'Lusitana';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/lusitana-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/lusitana-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* yuji-syuku-regular - japanese */
+@font-face {
+  font-family: 'Yuji Syuku';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/yuji-syuku-v3-japanese-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/yuji-syuku-v3-japanese-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* averia-libre-regular - latin */
+@font-face {
+  font-family: 'Averia Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/averia-libre-v9-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/averia-libre-v9-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
